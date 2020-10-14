@@ -1,0 +1,126 @@
+.spaced-body{
+    margin: 0;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #18122C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.spaced-header{
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 50px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 0 25px;
+}
+
+.spaced-logo {
+    letter-spacing: 5px;
+}
+
+.spaced-button{
+    background-color: #ffffff1f;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.spaced-content {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 400px;
+    width: 380px;
+}
+
+.spaced-content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.spaced-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    line-height: 50px;
+}
+
+.spaced-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaced-button-get-started {
+    background-color: #ffffff1f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.spaced-button-learn-more {
+    border: 1px solid #ffffff1f;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.spaced-clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaced-clients img{
+    width: 200px;
+    margin: 40px;
+    margin-top: 130px;
+    opacity: 0.1;
+    transition: .5s;
+}
+
+.spaced-clients img:hover{
+    opacity: 0.5;
+}
+
+.spaced-glossary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.spaced-glossary h3 {
+    color: #434699;
+    margin-bottom: 10px;
+}
+
+.spaced-glossary h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.spaced-glossary p {
+    color: gray;
+    width: 670px;
+}
